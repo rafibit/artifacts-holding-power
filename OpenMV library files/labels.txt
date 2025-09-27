@@ -1,0 +1,3 @@
+background
+focused
+non focused
