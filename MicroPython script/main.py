@@ -105,7 +105,7 @@ def configure_lorawan():
     send_at_command("AT+CH=NUM,0-7")
 
     # Set AppKey (replace with your actual key)
-    send_at_command('AT+KEY=APPKEY,"E7847552F5E659A09A96F25FAB667234"')
+    send_at_command('AT+KEY=APPKEY,"EE67234759A09A9B666F25FA847552F5"')
     send_at_command("AT+DR=DR7")
 
     # Attempt to join
